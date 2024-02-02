@@ -1,0 +1,59 @@
+.NewPublication-page{
+    padding-top: 12vh;
+    min-height: 70vh;
+}
+
+.NewPublication-container{
+
+    width: 70%;
+    margin: 5vh auto;
+    padding: 2vh 2vw;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.NewPublication-title{
+
+
+}
+
+.newPublication-body{
+
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.newPublication-body .span-65-35{
+
+    display: grid;
+    grid-template-columns: 65% 33%;
+    gap: 2%;
+}
+
+
+.new-publication-input{
+
+
+}
+
+.fileInput-body{
+    display: flex;
+    width: 100%;
+}
+
+.fileInput{
+
+}
+
+.fileInput-btn{
+    display: flex !important;
+    gap: 20px !important;
+
+}
+
+.newPublication-submit-btn{
+
+    width: 100%;
+    height: 8vh;
+    margin: 3vh 0 !important;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Nunito:wght@400;500;600;700;800;900&family=Pacifico&family=Quicksand:wght@400;500;600;700&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(204, 215, 226, 0.747);
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.GeneralPage{
+  padding-top: 12vh;
+}
+
+
+/* 
+font-family: 'Acme', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Quicksand', sans-serif; */

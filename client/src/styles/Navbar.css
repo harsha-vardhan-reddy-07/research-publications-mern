@@ -1,0 +1,107 @@
+.navbar{
+
+    height: 12vh;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    display: flex;
+
+    position: fixed;
+    width: 100%;
+    background-color: #c4d7f3;
+    z-index: 999;
+
+}
+
+
+.navbar h3{
+
+    color: #106294;
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    margin-left: 3vw;
+    cursor: pointer;
+}
+
+.nav-options{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin-right: 3vw;
+}
+
+.nav-options p{
+    margin: 0;
+    color: rgb(26, 65, 113);
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.nav-options p:hover{
+
+    color: rgb(50, 105, 173);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+/* admin navbar */
+
+.admin-navbar{
+
+    height: 12vh;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    display: flex;
+
+    position: fixed;
+    width: 100%;
+    background-color: #1a3865;
+    z-index: 999;
+
+}
+
+
+.admin-navbar h3{
+
+    color: #b9cbd7;
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    margin-left: 3vw;
+    cursor: pointer;
+}
+
+.admin-navbar h3 i{
+
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.admin-nav-options{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin-right: 3vw;
+}
+
+.admin-nav-options p{
+    margin: 0;
+    color: rgb(160, 173, 189);
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.admin-nav-options p:hover{
+
+    color: rgb(224, 233, 244);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
